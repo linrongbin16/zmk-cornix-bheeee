@@ -20,7 +20,7 @@ jobs:
       install_branch: "main"
       keymap_patterns: "config/cornix.keymap"
       json_path: "config/cornix.json"
-      config_path: "keymap_drawer/config.yaml" # config file, ignored if not exists
+      config_path: "keymap-drawer/config.yaml" # config file, ignored if not exists
       output_folder: "image"
       destination: "both"
       parse_args: "" # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
