@@ -7,7 +7,6 @@ on:
   push:
     branches:
       - main
-
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
@@ -20,7 +19,7 @@ jobs:
       amend_commit: false
       install_branch: "main"
       keymap_patterns: "config/cornix.keymap"
-      json_path: ""
+      json_path: "config/cornix.json"
       config_path: "keymap_drawer.config.yaml" # config file, ignored if not exists
       output_folder: "keymap-drawer"
       destination: "both"
