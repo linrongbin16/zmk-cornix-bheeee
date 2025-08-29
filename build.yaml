@@ -22,3 +22,6 @@ include:
     artifact-name: cornix_left_default
   - board: cornix_right
     artifact-name: cornix_right
+  - board: cornix_right
+    shield: settings_reset
+    artifact-name: reset
