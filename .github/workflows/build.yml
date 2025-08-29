@@ -27,32 +27,31 @@ jobs:
       draw_args: "cornix:'--dts-layout keymap-drawer/cornix-layouts.dtsi'"
       # draw_args: ""
       debug_mode: true
-  # create_png:
-  #   runs-on: ubuntu-latest
-  #   needs:
-  #     - draw
-  #   steps:
-  #     - name: Install PNG Image Tools
-  #       run: |
-  #         sudo apt-get update
-  #         sudo apt-get install -qq -y imagemagick
-  #         sudo apt-get install -qq -y inkscape
-  #         echo "which convert"
-  #         which convert
-  #         echo "convert --version"
-  #         convert --version
-  #     - uses: actions/checkout@v4
-  #     - run: |
-  #         git config --global user.email "linrongbin16@outlook.com"
-  #         git config --global user.name "linrongbin16"
-  #         git pull
-  #     - name: Generate PNG
-  #       run: |
-  #         # Use 5x times density for bigger PNG, by default is 96
-  #         convert -density 480 ./keymap-drawer/cornix.svg ./keymap-drawer/cornix.png
-  #         echo "git status"
-  #         git status
-  #     - uses: stefanzweifel/git-auto-commit-action@v5
-  #       with:
-  #         commit_message: "chore(png): auto-create png image"
-  #         file_pattern: "keymap-drawer/cornix.png"
+  create_png:
+    runs-on: ubuntu-latest
+    needs:
+      - draw
+    steps:
+      - name: Install PNG Image Tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -qq -y imagemagick
+          sudo apt-get install -qq -y inkscape
+          set -x
+          which convert
+          convert --version
+      - uses: actions/checkout@v4
+      - run: |
+          git config --global user.email "linrongbin16@outlook.com"
+          git config --global user.name "linrongbin16"
+          git pull
+      - name: Generate PNG
+        run: |
+          set -x
+          # Use 5x times density for bigger PNG, by default is 96
+          convert -density 480 ./image/cornix.svg ./image/cornix.png
+          git status
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(png): auto-create png image"
+          file_pattern: "image/cornix.png"
