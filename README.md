@@ -6,6 +6,13 @@
 >
 > **For macOS, please swap "Command" and "Option" in keyboard settings.**
 
+## Build
+
+- Use `mise i` to install python3.
+- Run `python3 -m venv venv` to create local virtual python3 environment.
+- Run `source ./venv/bin/active` to active virtual python3 environment.
+- Run `pip3 install --user -U west` on Linux, or `pip3 install -U west` on Windows/Mac.
+
 <img src="keymap-drawer/cornix.svg" >
 
 ## Acknowledgement
