@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: cornix}
 layers:
   Qwer-Mac:
-  - TAB
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -12,47 +12,47 @@ layers:
   - I
   - O
   - P
-  - CAPSLOCK
-  - LEFT CONTROL
+  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:apple-keyboard-control$$
   - A
-  - {t: S, h: LALT}
-  - {t: D, h: LEFT SHIFT}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - F
   - G
   - H
   - J
-  - {t: K, h: RIGHT SHIFT}
-  - {t: L, h: RALT}
-  - {t: ;, h: ':'}
-  - RIGHT CONTROL
-  - LEFT GUI
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: ':', s: ':'}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
   - Z
   - X
   - C
   - V
   - B
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
   - N
   - M
-  - ','
-  - .
-  - {t: /, h: '?'}
-  - RIGHT GUI
-  - ''
-  - ''
-  - ''
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, h: '?', s: '?'}
+  - $$mdi:apple-keyboard-command$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {t: ESC, h: Fun}
-  - {t: SPACE, h: Edit-Mac}
-  - {t: \, h: Nav}
-  - {t: '''', h: '"'}
-  - {t: ENTER, h: Num}
-  - {t: BACKSPACE, h: Sym}
-  - ''
-  - ''
-  - ''
+  - {t: '$$mdi:keyboard-space$$', h: Edit-Mac}
+  - {t: \, h: Nav, s: '|'}
+  - {t: '''', h: '"', s: '"'}
+  - {t: '$$mdi:keyboard-return$$', h: Num}
+  - {t: '$$mdi:backspace-outline$$', h: Sym}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   Qwer-Win:
-  - TAB
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -63,210 +63,210 @@ layers:
   - I
   - O
   - P
-  - CAPSLOCK
-  - LEFT CONTROL
+  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:apple-keyboard-control$$
   - A
-  - {t: S, h: LALT}
-  - {t: D, h: LEFT SHIFT}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - F
   - G
   - H
   - J
-  - {t: K, h: RIGHT SHIFT}
-  - {t: L, h: RALT}
-  - {t: ;, h: ':'}
-  - RIGHT CONTROL
-  - LEFT GUI
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: ':', s: ':'}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
   - Z
   - X
   - C
   - V
   - B
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
   - N
   - M
-  - ','
-  - .
-  - {t: /, h: '?'}
-  - RIGHT GUI
-  - ''
-  - ''
-  - ''
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, h: '?', s: '?'}
+  - $$mdi:apple-keyboard-command$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {t: ESC, h: Fun}
-  - {t: SPACE, h: Edit-Win}
-  - {t: \, h: Nav}
-  - {t: '''', h: '"'}
-  - {t: ENTER, h: Num}
-  - {t: BACKSPACE, h: Sym}
-  - ''
-  - ''
-  - ''
+  - {t: '$$mdi:keyboard-space$$', h: Edit-Win}
+  - {t: \, h: Nav, s: '|'}
+  - {t: '''', h: '"', s: '"'}
+  - {t: '$$mdi:keyboard-return$$', h: Num}
+  - {t: '$$mdi:backspace-outline$$', h: Sym}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   Fun:
-  - '&bootloader'
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - $$mdi:download-circle$$
+  - {t: '$$mdi:bluetooth$$', h: '1'}
+  - {t: '$$mdi:bluetooth$$', h: '2'}
+  - {t: '$$mdi:bluetooth$$', h: '3'}
+  - {t: '$$mdi:bluetooth$$', h: '4'}
+  - {t: '$$mdi:bluetooth$$', h: '5'}
   - F10
   - F7
   - F8
   - F9
-  - ''
-  - '&bootloader'
+  - {type: none}
+  - $$mdi:download-circle$$
   - {t: ▽, type: trans}
-  - ''
-  - LALT
-  - LEFT SHIFT
-  - ''
-  - ''
+  - {type: none}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - {type: none}
+  - {type: none}
   - F11
   - F4
   - F5
   - F6
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
   - {t: ▽, type: trans}
-  - BT CLR ALL
-  - BT CLR
-  - ''
-  - OUT BLE
-  - OUT USB
-  - ''
-  - ''
+  - {t: Clear, h: All, s: '$$mdi:bluetooth-off$$'}
+  - {t: Clear, s: '$$mdi:bluetooth-off$$'}
+  - {type: none}
+  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:bluetooth$$'}
+  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:usb$$'}
+  - {type: none}
+  - {type: none}
   - F12
   - F1
   - F2
   - F3
-  - {t: Qwer-Mac, h: toggle}
-  - {t: Qwer-Win, h: toggle}
-  - ''
-  - ''
-  - ''
+  - {t: Qwer-Mac, h: to}
+  - {t: Qwer-Win, h: to}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - DELETE
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:backspace-reverse$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
   Nav:
   - {t: ▽, type: trans}
-  - ''
+  - {type: none}
   - HOME
-  - UP ARROW
+  - $$mdi:arrow-up$$
   - END
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-right$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - PAGE DOWN
-  - ''
-  - PAGE UP
-  - ''
+  - {type: none}
+  - PgDn
+  - {type: none}
+  - PgUp
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   Num:
   - {t: ▽, type: trans}
-  - ''
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - ''
-  - '&tap2_macro LESS_THAN MINUS'
-  - '&tap2_macro MINUS GREATER_THAN'
-  - '&tap2_macro EQUAL GREATER_THAN'
-  - ''
+  - {type: none}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {type: none}
+  - <-
+  - ->
+  - =>
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - \
-  - '4'
-  - '5'
-  - '6'
-  - '-'
-  - ''
-  - '&tap2_macro LESS_THAN EQUAL'
-  - '&tap2_macro GREATER_THAN EQUAL'
-  - '&tap2_macro EXCLAMATION EQUAL'
-  - ''
+  - {t: \, s: '|'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '-', s: _}
+  - {type: none}
+  - <=
+  - '>='
+  - '!='
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''''
-  - '1'
-  - '2'
-  - '3'
-  - '='
+  - {t: '''', s: '"'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '=', s: +}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - '&tap2_macro PLUS EQUAL'
-  - '&tap2_macro MINUS EQUAL'
-  - ''
+  - {type: none}
+  - {type: none}
+  - +=
+  - -=
+  - {type: none}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - '['
-  - ']'
-  - '`'
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: '`', s: '~'}
+  - {type: none}
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   Sym:
   - {t: ▽, type: trans}
-  - ''
+  - {type: none}
   - '&'
   - '*'
   - (
   - )
-  - ''
-  - '&tap2_macro LESS_THAN MINUS'
-  - '&tap2_macro MINUS GREATER_THAN'
-  - '&tap2_macro EQUAL GREATER_THAN'
-  - ''
+  - {type: none}
+  - <-
+  - ->
+  - =>
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '|'
@@ -274,11 +274,11 @@ layers:
   - '%'
   - ^
   - _
-  - ''
-  - '&tap2_macro LESS_THAN EQUAL'
-  - '&tap2_macro GREATER_THAN EQUAL'
-  - '&tap2_macro EXCLAMATION EQUAL'
-  - ''
+  - {type: none}
+  - <=
+  - '>='
+  - '!='
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '"'
@@ -288,24 +288,24 @@ layers:
   - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - '&tap2_macro PLUS EQUAL'
-  - '&tap2_macro MINUS EQUAL'
-  - ''
+  - {type: none}
+  - {type: none}
+  - +=
+  - -=
+  - {type: none}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - '{'
   - '}'
   - '~'
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
   - {type: held}
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
   Edit-Mac:
   - {t: ▽, type: trans}
   - Alt+Q
@@ -314,10 +314,10 @@ layers:
   - Alt+R
   - Alt+T
   - Alt+Y
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+A
@@ -326,10 +326,10 @@ layers:
   - Alt+F
   - Alt+G
   - Alt+H
-  - ''
-  - RIGHT SHIFT
-  - RIGHT ALT
-  - ''
+  - {type: none}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+Z
@@ -340,23 +340,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+N
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   Edit-Win:
   - {t: ▽, type: trans}
   - Ctl+Q
@@ -365,10 +365,10 @@ layers:
   - Ctl+R
   - Ctl+T
   - Ctl+Y
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+A
@@ -377,10 +377,10 @@ layers:
   - Ctl+F
   - Ctl+G
   - Ctl+H
-  - ''
-  - RIGHT SHIFT
-  - RIGHT ALT
-  - ''
+  - {type: none}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Z
@@ -391,20 +391,20 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+N
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
