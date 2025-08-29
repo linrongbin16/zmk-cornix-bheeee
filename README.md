@@ -6,7 +6,7 @@
 >
 > **For macOS, please swap "Command" and "Option" in keyboard settings.**
 
-<img src="keymap-drawer/cornix.svg" >
+<img src="image/cornix.svg" >
 
 ## Acknowledgement
 
