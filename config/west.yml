@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: cornix
       url-base: https://github.com/hitsmaxft
+    - name: urob
+      url-base: https://github.com/urob
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -14,6 +16,10 @@ manifest:
       import: app/west.yml
     - name: zmk-keyboard-cornix
       remote: cornix
+      revision: main
+      clone-depth: 1
+    - name: zmk-helpers
+      remote: urob
       revision: main
       clone-depth: 1
   self:
