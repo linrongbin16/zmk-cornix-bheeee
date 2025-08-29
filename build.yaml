@@ -17,4 +17,8 @@
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio
 #
----
+include:
+  - board: cornix_left
+    artifact-name: cornix_left
+  - board: cornix_right
+    artifact-name: cornix_right
