@@ -16,7 +16,7 @@ manifest:
       import: app/west.yml
     - name: zmk-keyboard-cornix
       remote: hitsmaxft
-      revision: v2.7
+      revision: main
       clone-depth: 1
     - name: zmk-helpers
       remote: urob
