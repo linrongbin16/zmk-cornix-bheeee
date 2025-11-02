@@ -3,38 +3,38 @@ layers:
   Qwer-Mac:
   - $$mdi:keyboard-tab$$
   - Q
-  - W
-  - E
+  - D
   - R
-  - T
-  - Y
+  - W
+  - B
+  - J
+  - F
   - U
-  - I
-  - O
   - P
+  - {t: ;, h: ':', s: ':'}
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-control$$
   - A
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - F
+  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
+  - T
   - G
-  - H
-  - J
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: ':', s: ':'}
+  - Y
+  - N
+  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-option$$'}
+  - I
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - Z
   - X
+  - M
   - C
   - V
-  - B
   - {type: none}
   - {type: none}
-  - N
-  - M
+  - K
+  - L
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '?', s: '?'}
@@ -54,38 +54,38 @@ layers:
   Qwer-Win:
   - $$mdi:keyboard-tab$$
   - Q
-  - W
-  - E
+  - D
   - R
-  - T
-  - Y
+  - W
+  - B
+  - J
+  - F
   - U
-  - I
-  - O
   - P
+  - {t: ;, h: ':', s: ':'}
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-control$$
   - A
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - F
+  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
+  - T
   - G
-  - H
-  - J
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: ':', s: ':'}
+  - Y
+  - N
+  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-option$$'}
+  - I
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - Z
   - X
+  - M
   - C
   - V
-  - B
   - {type: none}
   - {type: none}
-  - N
-  - M
+  - K
+  - L
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '?', s: '?'}
