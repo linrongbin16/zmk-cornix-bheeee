@@ -4,37 +4,37 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
+  - F
   - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - {t: ;, h: ':', s: ':'}
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-control$$
   - A
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - F
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - T
   - G
-  - H
-  - J
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: ':', s: ':'}
+  - M
+  - N
+  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - O
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - Z
   - X
   - C
+  - D
   - V
-  - B
   - {type: none}
   - {type: none}
-  - N
-  - M
+  - K
+  - H
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '?', s: '?'}
@@ -55,37 +55,37 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
+  - F
   - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - {t: ;, h: ':', s: ':'}
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-control$$
   - A
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - F
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - T
   - G
-  - H
-  - J
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: ':', s: ':'}
+  - M
+  - N
+  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - O
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - Z
   - X
   - C
+  - D
   - V
-  - B
   - {type: none}
   - {type: none}
-  - N
-  - M
+  - K
+  - H
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '?', s: '?'}
@@ -310,10 +310,10 @@ layers:
   - {t: ▽, type: trans}
   - Alt+Q
   - Alt+W
-  - Alt+E
-  - Alt+R
-  - Alt+T
-  - Alt+Y
+  - Alt+F
+  - Alt+P
+  - Alt+B
+  - Alt+J
   - {type: none}
   - {type: none}
   - {type: none}
@@ -321,12 +321,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+A
+  - Alt+R
   - Alt+S
-  - Alt+D
-  - Alt+F
+  - Alt+T
   - Alt+G
-  - Alt+H
-  - {type: none}
+  - Alt+M
+  - Alt+N
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - {type: none}
@@ -335,12 +335,12 @@ layers:
   - Alt+Z
   - Alt+X
   - Alt+C
+  - Alt+D
   - Alt+V
-  - Alt+B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+N
-  - {type: none}
+  - Alt+K
+  - Alt+H
   - {type: none}
   - {type: none}
   - {type: none}
@@ -361,10 +361,10 @@ layers:
   - {t: ▽, type: trans}
   - Ctl+Q
   - Ctl+W
-  - Ctl+E
-  - Ctl+R
-  - Ctl+T
-  - Ctl+Y
+  - Ctl+F
+  - Ctl+P
+  - Ctl+B
+  - Ctl+J
   - {type: none}
   - {type: none}
   - {type: none}
@@ -372,12 +372,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+A
+  - Ctl+R
   - Ctl+S
-  - Ctl+D
-  - Ctl+F
+  - Ctl+T
   - Ctl+G
-  - Ctl+H
-  - {type: none}
+  - Ctl+M
+  - Ctl+N
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - {type: none}
@@ -386,12 +386,12 @@ layers:
   - Ctl+Z
   - Ctl+X
   - Ctl+C
+  - Ctl+D
   - Ctl+V
-  - Ctl+B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+N
-  - {type: none}
+  - Ctl+K
+  - Ctl+H
   - {type: none}
   - {type: none}
   - {type: none}
