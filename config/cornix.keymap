@@ -250,10 +250,10 @@
 
         Edit-Mac {
             bindings = <
-&trans  &kp LA(Q)  &kp LA(W)  &kp LA(E)  &kp LA(R)  &kp LA(T)                  &kp LA(Y)  &none  &none            &none          &none  &trans
-&trans  &kp LA(A)  &kp LA(S)  &kp LA(D)  &kp LA(F)  &kp LA(G)                  &kp LA(H)  &none  &kp RIGHT_SHIFT  &kp RIGHT_ALT  &none  &trans
-&trans  &kp LA(Z)  &kp LA(X)  &kp LA(C)  &kp LA(V)  &kp LA(B)  &trans  &trans  &kp LA(N)  &none  &none            &none          &none  &trans
-&none   &none      &none      &none      &none      &none                      &none      &none  &none            &none          &none  &none
+&trans  &kp LA(Q)  &kp LA(W)  &kp LA(F)  &kp LA(P)  &kp LA(B)                  &kp LA(J)  &none      &none            &none          &none  &trans
+&trans  &kp LA(A)  &kp LA(R)  &kp LA(S)  &kp LA(T)  &kp LA(G)                  &kp LA(M)  &kp LA(N)  &kp RIGHT_SHIFT  &kp RIGHT_ALT  &none  &trans
+&trans  &kp LA(Z)  &kp LA(X)  &kp LA(C)  &kp LA(D)  &kp LA(V)  &trans  &trans  &kp LA(K)  &kp LA(H)  &none            &none          &none  &trans
+&none   &none      &none      &none      &none      &none                      &none      &none      &none            &none          &none  &none
             >;
         };
 
@@ -266,10 +266,10 @@
             //                    |         |         |         |         |         | |      |      |      |       |      |
 
             bindings = <
-&trans  &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                  &kp LC(Y)  &none  &none            &none          &none  &trans
-&trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)                  &kp LC(H)  &none  &kp RIGHT_SHIFT  &kp RIGHT_ALT  &none  &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &trans  &trans  &kp LC(N)  &none  &none            &none          &none  &trans
-&none   &none      &none      &none      &none      &none                      &none      &none  &none            &none          &none  &none
+&trans  &kp LC(Q)  &kp LC(W)  &kp LC(F)  &kp LC(P)  &kp LC(B)                  &kp LC(J)  &none      &none            &none          &none  &trans
+&trans  &kp LC(A)  &kp LC(R)  &kp LC(S)  &kp LC(T)  &kp LC(G)                  &kp LC(M)  &kp LC(N)  &kp RIGHT_SHIFT  &kp RIGHT_ALT  &none  &trans
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(D)  &kp LC(V)  &trans  &trans  &kp LC(K)  &kp LC(H)  &none            &none          &none  &trans
+&none   &none      &none      &none      &none      &none                      &none      &none      &none            &none          &none  &none
             >;
         };
     };
