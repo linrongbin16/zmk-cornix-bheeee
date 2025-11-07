@@ -220,10 +220,10 @@
             //                    |         |         |         |         |         | |      |      |      |       |      |
 
             bindings = <
-&trans  &none  &kp HOME        &kp UP_ARROW    &kp END          &none                  &none  &none  &none  &none  &none  &trans
-&trans  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none                  &kp H  &kp J  &kp K  &kp L  &none  &trans
-&trans  &none  &none           &none           &none            &none  &trans  &trans  &none  &none  &none  &none  &none  &trans
-&none   &none  &none           &none           &none            &none                  &none  &none  &none  &none  &none  &none
+&trans  &none  &kp HOME        &kp UP_ARROW    &kp END          &none                  &none  &kp PAGE_UP  &none  &kp PAGE_DOWN  &none  &trans
+&trans  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none                  &kp H  &kp J        &kp K  &kp L          &none  &trans
+&trans  &none  &none           &none           &none            &none  &trans  &trans  &none  &none        &none  &none          &none  &trans
+&none   &none  &none           &none           &none            &none                  &none  &none        &none  &none          &none  &none
             >;
 
             sensor-bindings =
