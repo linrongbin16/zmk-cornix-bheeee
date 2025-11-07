@@ -172,17 +172,17 @@ layers:
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - H
+  - J
+  - K
+  - L
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: none}
-  - PgDn
   - {type: none}
-  - PgUp
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
