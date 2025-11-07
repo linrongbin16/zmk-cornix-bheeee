@@ -161,9 +161,9 @@ layers:
   - END
   - {type: none}
   - {type: none}
+  - PgUp
   - {type: none}
-  - {type: none}
-  - {type: none}
+  - PgDn
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
