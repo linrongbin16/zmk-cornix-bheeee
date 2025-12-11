@@ -54,7 +54,6 @@
             hold-trigger-key-positions = <KEYS_R KEYS_T 6 7 8 9 10 11 18 19 20 21 22 23 32 33 34 35 36 37 44 45 46 47 48 49 31>;
             hold-trigger-on-release;
             label = "HOMEROW_MODS_LEFT";
-            hold-while-undecided;
         };
 
         hmr: homerow_mods_right {
@@ -69,7 +68,6 @@
             hold-trigger-key-positions = <KEYS_L KEYS_T 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 30 38 39 40 41 42 43>;
             hold-trigger-on-release;
             label = "HOMEROW_MODS_RIGHT";
-            hold-while-undecided;
         };
 
         // Positional Homerow mods for shift
@@ -109,7 +107,6 @@
             hold-trigger-key-positions = <KEYS_R KEYS_T 6 7 8 9 10 11 18 19 20 21 22 23 32 33 34 35 36 37 47 48 49 31 44 45 46>;
             hold-trigger-on-release;
             label = "MO_LEFT";
-            hold-while-undecided;
         };
 
         mor: mo_right {
@@ -124,7 +121,6 @@
             hold-trigger-key-positions = <KEYS_L KEYS_T 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 30 38 39 40 41 42 43>;
             hold-trigger-on-release;
             label = "MO_RIGHT";
-            hold-while-undecided;
         };
     };
 
