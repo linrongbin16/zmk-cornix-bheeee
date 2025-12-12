@@ -44,8 +44,8 @@ layers:
   - {type: none}
   - {t: ESC, h: Fun}
   - {t: '$$mdi:keyboard-space$$', h: Edit-Mac}
-  - {t: \, h: Nav, s: '|'}
-  - {t: '''', h: '"', s: '"'}
+  - {t: \, s: '|'}
+  - {t: '''', h: Nav, s: '"'}
   - {t: '$$mdi:keyboard-return$$', h: Num}
   - {t: '$$mdi:backspace-outline$$', h: Sym}
   - {type: none}
@@ -95,8 +95,8 @@ layers:
   - {type: none}
   - {t: ESC, h: Fun}
   - {t: '$$mdi:keyboard-space$$', h: Edit-Win}
-  - {t: \, h: Nav, s: '|'}
-  - {t: '''', h: '"', s: '"'}
+  - {t: \, s: '|'}
+  - {t: '''', h: Nav, s: '"'}
   - {t: '$$mdi:keyboard-return$$', h: Num}
   - {t: '$$mdi:backspace-outline$$', h: Sym}
   - {type: none}
@@ -197,8 +197,8 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: held}
   - {type: none}
+  - {type: held}
   - {type: none}
   - {type: none}
   - {type: none}
